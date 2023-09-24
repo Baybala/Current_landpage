@@ -1,0 +1,53 @@
+.infoHead,
+.infoHeadActive {
+  width: 80%;
+  height: 337px;
+  margin: 150px auto;
+  background-color: var(--back-color);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 300px;
+}
+
+.infoHead {
+  transform: translateY(180px);
+  opacity: 0.3;
+  transition: 0.3s all ease;
+}
+
+.infoHeadActive {
+  transform: translateY(0);
+  opacity: 1;
+  transition: 1.5s all ease;
+}
+
+.infoHead p,
+.infoHead h2,
+.infoHeadActive p,
+.infoHeadActive h2 {
+  text-align: center;
+}
+
+.infoHead div,
+.infoHeadActive div {
+  padding-bottom: 20px;
+}
+
+.infoBody {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+}
+
+/* ==============================================change when screen resize============================================== */
+
+@media only screen and (max-width: 1200px) {
+  .infoHead,
+  .infoHeadActive {
+    background-color: rgb(120, 120, 225);
+    width: 90%;
+    height: 500px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.578);
+  }
+}

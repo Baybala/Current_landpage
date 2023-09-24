@@ -1,0 +1,15 @@
+.searchNarroe {
+  width: 90%;
+  height: 500px;
+  margin: 50px auto;
+  padding: 70px;
+  border-radius: 10px;
+  background-color: rgb(43, 64, 168);
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.578);
+}
+
+@media only screen and (max-width: 800px) {
+  .searchNarroe {
+    height: 570px;
+  }
+}

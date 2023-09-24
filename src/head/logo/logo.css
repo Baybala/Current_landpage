@@ -1,0 +1,31 @@
+.header_logo {
+  /* float: left; */
+  padding-left: 0px;
+  height: inherit;
+  flex-basis: 20%;
+}
+
+.header_logo div {
+  width: 220px;
+  margin: 15px 0 0 15%;
+  cursor: pointer;
+  position: relative;
+}
+
+.header_logo img {
+  width: 130px;
+  margin-top: 15px;
+}
+
+.header_logo h4 {
+  font-family: 'Cooper Black';
+  position: absolute;
+  left: 65%;
+  top: 30px;
+}
+
+.header_logo h6 {
+  position: absolute;
+  left: 65%;
+  top: 55px;
+}

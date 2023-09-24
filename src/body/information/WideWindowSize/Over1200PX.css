@@ -1,0 +1,18 @@
+.infoBody div {
+  color: black;
+  width: 20%;
+  padding: 5px;
+  height: auto;
+  border-radius: 50px;
+  background-color: rgba(19, 155, 233, 0.725);
+  text-align: center;
+  margin: auto;
+}
+
+.infoBody img {
+  width: 50px;
+}
+
+.infoBody p {
+  font-size: 11px;
+}

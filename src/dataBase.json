@@ -1,0 +1,106 @@
+{
+  "location": [
+    "Head office, Haydar Aliyev Ave 1",
+    "Office 1, C. Məmmədquluzadə küç. 85",
+    "Office 2, A. Məhərrəmov küç. 99",
+    "Office 3, Xəqani küç. 103a",
+    "Office 4, Ü. Hacıbəyov küç.16"
+  ],
+  "cars": [
+    {
+      "make": "Toyota",
+      "model": "Prado",
+      "image": "Prado.png",
+      "fuel": "Petrol",
+      "driveType": "4WD",
+      "engine": "4.0 L 235 hP",
+      "year": "2015",
+      "doors": "4/5",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "40"
+    },
+    {
+      "make": "Kia",
+      "model": "Sorento",
+      "image": "Sorento.png",
+      "fuel": "Petrol",
+      "driveType": "Front wheel",
+      "engine": "2.4 L 191 hP",
+      "year": "2015",
+      "doors": "4/5",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "30"
+    },
+    {
+      "make": "Hyundai",
+      "model": "Sonata",
+      "image": "Sonata.png",
+      "fuel": "Petrol",
+      "driveType": "Front wheel",
+      "engine": "2.4 L 185 hP",
+      "year": "2018",
+      "doors": "4",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "25"
+    },
+
+    {
+      "make": "Jeep",
+      "model": "Grand Cherokee",
+      "image": "Sherokee.png",
+      "fuel": "Petrol",
+      "driveType": "4WD",
+      "engine": "3.6 L 293 hP",
+      "year": "2022",
+      "doors": "4/5",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "35"
+    },
+
+    {
+      "make": "Mercedes",
+      "model": "E class",
+      "image": "MercedesE.png",
+      "fuel": "Petrol",
+      "driveType": "Rear wheel",
+      "engine": "2.0 L 255 hP",
+      "year": "2020",
+      "doors": "4",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "40"
+    },
+
+    {
+      "make": "Mercedes",
+      "model": "C class",
+      "image": "MercedesC.png",
+      "fuel": "Petrol",
+      "driveType": "Rear wheel",
+      "engine": "2.0 L 255 hP",
+      "year": "2020",
+      "doors": "4",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "35"
+    },
+
+    {
+      "make": "Volkswagen",
+      "model": "Passat",
+      "image": "Passat.png",
+      "fuel": "Petrol",
+      "driveType": "Front wheel",
+      "engine": "2.0 L 174 hP",
+      "year": "2021",
+      "doors": "4",
+      "AC": "yes",
+      "transmission": "Automatic",
+      "rentPrice": "25"
+    }
+  ]
+}

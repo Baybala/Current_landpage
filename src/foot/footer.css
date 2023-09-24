@@ -1,0 +1,38 @@
+.footer {
+  background-color: white;
+  height: 500px;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footer_head {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_head_info {
+  width: 500px;
+  padding: 0 100px 0 0;
+}
+
+.footer_head_info img {
+  width: 150px;
+  cursor: pointer;
+}
+
+.footer_head_phoneImage {
+  width: 50%;
+  text-align: right;
+}
+
+.footer_head_phoneImage img {
+  width: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer_head {
+    width: 90%;
+  }
+}

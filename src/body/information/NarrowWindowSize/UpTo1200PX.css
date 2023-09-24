@@ -1,0 +1,22 @@
+.CarSelectt img,
+.OperatorContactt img,
+.LetsDrivee img {
+  width: 150px;
+}
+
+.CarSelectt,
+.OperatorContactt,
+.LetsDrivee {
+  text-align: center;
+  background-color: rgb(192, 192, 221);
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  height: 400px;
+}
+
+.CarSelectt h6,
+.OperatorContactt h6,
+.LetsDrivee h6 {
+  font-size: 28px;
+}

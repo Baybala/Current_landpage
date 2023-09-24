@@ -1,0 +1,35 @@
+.faq {
+  width: 80%;
+  height: 500px;
+  background-color: var(--back-color);
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.faq_head {
+  padding: 25px 400px 0 400px;
+}
+
+.faq_Body {
+  margin-top: 40px;
+  padding: 0 10% 0 10%;
+}
+
+.def {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  .faq {
+    width: 90%;
+  }
+
+  .faq_head {
+    padding: 0 5% 0 5%;
+  }
+
+  .faq_Body {
+    padding: 0 5% 0 5%;
+  }
+}

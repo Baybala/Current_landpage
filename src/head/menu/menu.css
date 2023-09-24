@@ -1,0 +1,102 @@
+.menu {
+  /* background-color: yellow; */
+  flex-grow: 1;
+  text-align: end;
+  padding: 40px 40px 50px 0;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+
+.menu > p {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  padding: 3px 10px;
+  transition: color 0.3s ease-in-out;
+  &:after {
+    content: '';
+    background-color: #5335d5;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 5px;
+    width: 0;
+    transition: width 0.33s ease-in-out 80ms;
+  }
+  &:hover {
+    color: red;
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.showMenu {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: rgba(83, 81, 81, 0.284);
+  animation-name: backDrop;
+  animation-duration: 0.2s;
+  z-index: 1;
+}
+
+@keyframes backDrop {
+  /* 0% {
+    background-color: rgba(211, 211, 211, 0.019);
+  } */
+  /* 100% {
+    background-color: rgba(246, 240, 240, 0.344);
+  } */
+}
+
+.menuList {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  /* bottom: 0;  */
+  width: 310px;
+  background-color: white;
+  animation-name: openingMenu;
+  animation-duration: 0.5s;
+  z-index: 1;
+  overflow: auto;
+}
+
+@keyframes openingMenu {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 310px;
+  }
+}
+
+.closeButton {
+  font-size: 20px;
+  padding: 0;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 15px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.navbarMenu p {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.signingMenu p {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  margin-top: 50px;
+  border-radius: 20px;
+}

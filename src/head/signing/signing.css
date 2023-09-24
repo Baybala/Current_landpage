@@ -1,0 +1,31 @@
+.signing {
+  height: inherit;
+  text-align: right;
+  padding-right: 1%;
+  flex-basis: 20%;
+}
+
+.signing p {
+  display: inline-block;
+  width: 80px;
+  cursor: pointer;
+  margin-top: 2.1rem;
+}
+
+.register {
+  color: white;
+  margin-left: 20px;
+  text-align: center;
+  background-color: rgb(224, 40, 65);
+  border: 0;
+  padding: 0.5rem 0.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    transform: scale(1.03);
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

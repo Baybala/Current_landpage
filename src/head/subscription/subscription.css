@@ -1,0 +1,76 @@
+.subsc {
+  height: 50px;
+  border-top: 1.5px solid rgba(26, 25, 25, 0.232);
+  background-color: rgb(255, 255, 255);
+}
+
+.socical_media {
+  position: absolute;
+  line-height: 50px;
+  height: 50px;
+  right: 130px;
+  width: auto;
+}
+
+.facebook,
+.instagram,
+.twitter,
+.searchIcon {
+  margin-left: 13px;
+  margin-right: 0px;
+  height: 23px;
+  cursor: pointer;
+}
+
+form.searchInput {
+  display: inline-block;
+  border: none;
+}
+
+input.searchInput {
+  margin-left: -26px;
+  padding-left: 25px;
+  width: 300px;
+  border-radius: 5px;
+  height: 35px;
+  background: transparent;
+  animation-name: sInp;
+  animation-duration: 0.5s;
+}
+
+@keyframes sInp {
+  0% {
+    width: 15px;
+  }
+  100% {
+    width: 300px;
+  }
+}
+
+.socical_media[target='_s_media'] {
+  animation-name: s_media_motion;
+  animation-duration: 0.5s;
+}
+
+@keyframes s_media_motion {
+  100% {
+    width: 145px;
+  }
+  0% {
+    width: 400px;
+  }
+}
+
+/* .socical_media[target='nn'] {
+  animation-name: noMotion;
+  animation-duration: 0.5s;
+}
+
+@keyframes noMotion {
+  100% {
+    width: 400px;
+  }
+  0% {
+    width: 145px;
+  }
+} */

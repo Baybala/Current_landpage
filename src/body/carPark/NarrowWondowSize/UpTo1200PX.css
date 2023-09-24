@@ -1,0 +1,80 @@
+.carFleet {
+  width: 90%;
+  background-color: aquamarine;
+}
+
+.fleetInfo {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 370px;
+  margin: auto;
+}
+
+.fleetinfor_model {
+  width: 65%;
+  height: 100%;
+}
+
+.fleetinfor_model img {
+  width: 450px;
+}
+
+.fleetInfor_details {
+  width: 35%;
+}
+
+.fleetInfo_price {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: rgba(56, 56, 251, 0.753);
+  color: white;
+}
+
+.fleetInfor_carDetails {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.smallWindow_name {
+  width: 50%;
+  text-align: right;
+}
+
+.smallWindow_name div,
+.smallWindow_description div {
+  padding: 2px 7px 2px 7px;
+}
+
+.smallWindow_name div {
+  border-right: 2px dashed black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+}
+
+.smallWindow_description div {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.smallWindow_description {
+  width: 50%;
+  text-align: left;
+}
+
+@media only screen and (max-width: 700px) {
+  .fleetinfor_model img {
+    width: 100%;
+  }
+
+  .fleetinfor_model {
+    width: 30%;
+  }
+
+  .fleetInfor_details {
+    width: 250px;
+  }
+}
